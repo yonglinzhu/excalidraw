@@ -49,4 +49,4 @@ jobs:
 
       - name: Build the Docker image
         run: |
-          docker buildx build --push --platform linux/amd64 -t feelmoreof/excalidraw:latest -t feelmoreof/excalidraw:0.16.1 .
+          docker buildx build --push --platform linux/amd64 -t feelmoreof/excalidraw:latest -t feelmoreof/excalidraw:0.16.1-001 .
